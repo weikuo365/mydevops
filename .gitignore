@@ -9,3 +9,5 @@ out
 gen
 venv
 scanhosts/migrations
+mydevops/__pycache__/
+scanhosts/__pycache__/

@@ -17,6 +17,7 @@ from django.urls import path
 from scanhosts import views
 
 urlpatterns = [
-    path('index/', views.index, name="index"),
+    path('getinfos/', views.getinfo, name="getinfos"),
+    path('sendinfos/', views.sendinfo, name="sendinfos"),
 
 ]
