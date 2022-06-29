@@ -18,6 +18,6 @@ from scanhosts import views
 
 urlpatterns = [
     path('getinfos/', views.getinfo, name="getinfos"),
-    path('sendinfos/', views.sendinfo, name="sendinfos"),
+    path('userinfos/', views.userinfos, name="userinfos"),
 
 ]
